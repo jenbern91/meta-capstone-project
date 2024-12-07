@@ -54,12 +54,14 @@ h1 {
 h3.location{
     font-size: 2em;
     color: white;
+    padding-bottom: 30px;
 
 }
 
 p.description {
     font-size: 1.5em;
     color: white;
+    padding-bottom: 30px;
     
 }
 
@@ -86,7 +88,8 @@ p.description {
 
 /* Tablet */
 @media (min-width: 768px){
-    
+
+           
 }
 
 /* Desktop */

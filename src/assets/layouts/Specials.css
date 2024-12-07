@@ -112,6 +112,9 @@ align-items: center;
   color: var(--primary-green);
 }
 
+h2 {
+  font-size: 20pt;
+}
 
 .weekly-specials,
 .online-menu {

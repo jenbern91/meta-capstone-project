@@ -9,9 +9,9 @@ import image7 from '../assets/George.png'
 const CustomersSay = () => {
   return (
     <div className='customers-say'>
-      <h2 className='testimonial-title'>Testimonials</h2>
+      <h2 className='customers-title'>Testimonials</h2>
         <div className='grid-testimonial'>
-        <section className='testimonial'>
+        <section className='testimonial-1'>
                   <img src={image4} className='person-image'></img>
                   <div className='review'>
                     <p className='person-name'>Emma T.</p>
@@ -20,7 +20,7 @@ const CustomersSay = () => {
                     </div>
         </section>
 
-        <section className='testimonial'>
+        <section className='testimonial-2'>
                   <img src={image5} className='person-image'></img>
                   <div className='review'>
                     <p className='person-name'>Alex R.</p>
@@ -29,7 +29,7 @@ const CustomersSay = () => {
                     </div>
         </section>
 
-          <section className='testimonial'>
+          <section className='testimonial-3'>
                   <img src={image6} className='person-image'></img>
                   <div className='review'>
                     <p className='person-name'>Sofia K.</p>
@@ -38,7 +38,7 @@ const CustomersSay = () => {
                     </div>
           </section>
 
-          <section className='testimonial'>
+          <section className='testimonial-4'>
                   <img src={image7} className='person-image'></img>
                   <div className='review'>
                     <p className='person-name'>Geroge L.</p>
@@ -49,7 +49,7 @@ const CustomersSay = () => {
 
         </div>
 
-    
+
   </div>
   )
 }

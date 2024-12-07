@@ -4,6 +4,8 @@ import './assets/layouts/Nav.css';
 import './assets/layouts/Hero.css';
 import './assets/layouts/Specials.css';
 import './assets/layouts/CustomersSay.css';
+import './assets/layouts/Chicago.css';
+import './assets/layouts/Footer.css';
 
 import Nav from './components/Nav'
 import Hero from './components/Hero'
