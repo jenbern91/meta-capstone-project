@@ -1,0 +1,53 @@
+:root {
+    --primary-green: #495E57; 
+    --primary-yellow: #FACE14;
+    --secondary-peach: #EE9972;
+    --secondary-beige: #FBDABB;
+    --hightlight-grey: #EDEFEE;
+    --highlight-black: #333333;
+    --border-radius: 16px;
+    font-family: 'Markazi Text', 'Times New Roman', Times, serif;
+  }
+
+    
+  .navbar .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  /* No styling on list items */
+  li {
+    list-style-type: none;
+  }
+  
+  .navbar img {
+    margin: 10px 0;
+    height: 70px;
+  }
+
+   /* Changes the color of both links to white, adds padding between them and margin as well */
+  
+   .navbar a {
+    color: #495E57;
+    padding: 9px;
+    margin: 0 10px;
+   
+  }
+  
+  
+  .navbar ul li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1.5px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  .navbar ul li:hover:after {
+    width: 80%;
+    background: #495E57;
+  }
+  

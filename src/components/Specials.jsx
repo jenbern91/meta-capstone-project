@@ -2,7 +2,7 @@ import React from 'react'
 
 const Specials = () => {
   return (
-    <div>Specials</div>
+    <h1>Specials</h1>
   )
 }
 
