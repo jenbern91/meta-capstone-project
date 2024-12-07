@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import './assets/layouts/Nav.css';
 import './assets/layouts/Hero.css';
+import './assets/layouts/Specials.css';
+import './assets/layouts/CustomersSay.css';
 
 import Nav from './components/Nav'
 import Hero from './components/Hero'

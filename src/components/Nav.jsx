@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => {
   return (
     <nav className='navbar' >
-        <div className='container'>
+        <div className='nav-container'>
           <img src='Logo.svg' />
       <ul>
         <li><a>Home</a></li>

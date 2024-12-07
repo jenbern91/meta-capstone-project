@@ -12,11 +12,9 @@ const Hero = () => {
 
       </div>
       <div className="box-2"> 
-           <img className='showcase-image' src={showcaseImage}></img>
+           <img className='showcase-image' src={showcaseImage}/>
       </div>
       
-
-
     </div>
   )
 }
