@@ -76,19 +76,19 @@
 
 
 .dish-name, .person-name{
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
 .dish-price {
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: bold;
     color: var(--secondary-peach);
     margin-left: auto;
 }
 
 .dish-description {
-    font-size: 1.2rem;
+    font-size: 1em;
 }
 
 .delivery {

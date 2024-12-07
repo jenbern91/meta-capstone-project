@@ -40,7 +40,7 @@
     display: flex;
     font-weight: bold;
     font-family: var(--fontKarla);
-    font-size:x-large
+    font-size: large
   }
   
   /* Changes the color of both links to white, adds padding between them and margin as well */

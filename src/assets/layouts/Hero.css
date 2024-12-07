@@ -47,7 +47,7 @@ img.showcase-image {
 h1 {
     font-family: 'Markazi Text', 'Times New Roman', Times, serif;
     color: var(--primary-yellow);
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 200;
 }
 
@@ -55,11 +55,13 @@ h3.location{
     font-size: 2em;
     color: white;
     padding-bottom: 30px;
+    font-family: var(--fontMarkazi);
+    font-weight: 200;
 
 }
 
 p.description {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: white;
     padding-bottom: 30px;
     
